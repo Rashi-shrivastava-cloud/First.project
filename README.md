@@ -18,3 +18,5 @@ for i in range(1, 11):
     # print(n1)
     # or 
     print(f "{n} * {i} is {n1}")
+
+print("today is a beautiful day")

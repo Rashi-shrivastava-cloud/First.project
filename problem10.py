@@ -1,0 +1,6 @@
+s1 = set()
+n1 = int(input("enter the no :"))
+s1.add(n1)
+n2 = input("enter the no:")
+s1.add(n2)
+print(s1)

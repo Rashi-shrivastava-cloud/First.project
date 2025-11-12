@@ -19,9 +19,16 @@
 # print(rotated_list)
 
 
-a = input()
-a2 =a.upper()
-print(a2)
+# a = input()
+# a2 =a.upper()
+# print(a2)
+#
+# a3 = a2.lower()
+# print(a3)
 
-a3 = a2.lower()
-print(a3)
+
+n = int(input())
+l1= list(map(int,input().split()))
+
+
+print(max(l1))

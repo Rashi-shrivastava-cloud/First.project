@@ -26,9 +26,11 @@
 # a3 = a2.lower()
 # print(a3)
 
+#
+# n = int(input())
+# l1= list(map(int,input().split()))
+#
+#
+# print(max(l1))
 
-n = int(input())
-l1= list(map(int,input().split()))
 
-
-print(max(l1))

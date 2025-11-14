@@ -34,3 +34,8 @@
 # print(max(l1))
 
 
+import calendar
+year = int(input())
+month =  int(input())
+calendar = calendar.month(year, month)
+print(calendar)

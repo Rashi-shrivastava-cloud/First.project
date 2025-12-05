@@ -20,9 +20,20 @@
 # print(l1)
 
 
+# n = int(input())
+# l1 =set(map(int,input().split()))
+# m = int(input())
+# l2 =set(map(int,input().split()))
+# # print(len(l1.difference(l2)))
+# print(l1.difference(l2))
+
+
 n = int(input())
 l1 =set(map(int,input().split()))
 m = int(input())
 l2 =set(map(int,input().split()))
-# print(len(l1.difference(l2)))
-print(l1.difference(l2))
+s1 = len(l1.difference(l2))
+s2 = len(l2.difference(l1))
+
+s3 = s1+ s2
+print(s3)

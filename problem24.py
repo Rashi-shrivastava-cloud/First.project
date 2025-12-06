@@ -16,4 +16,7 @@ print(second_lowest)
 
 name = [student[0] for student in student if student[1] == second_lowest]
 name.sort()
-print(name)
+# print(name)
+
+for a in name:
+    print(a)

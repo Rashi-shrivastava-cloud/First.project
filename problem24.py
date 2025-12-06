@@ -13,3 +13,7 @@ print(unique_grade)
 
 second_lowest = grades[1]
 print(second_lowest)
+
+name = [student[0] for student in student if student[1] == second_lowest]
+name.sort()
+print(name)

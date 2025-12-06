@@ -6,3 +6,6 @@ for i in range(n):
     student.append([name,grades])
 
 print(student)
+grades =[ student[1] for  student in student ]
+unique_grade = sorted(set(grades))
+print(unique_grade)
